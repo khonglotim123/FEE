@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+    <link rel="stylesheet" href="css/order.css" />
+    <script src="js/order.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th id="col-product">Product</th>
+            <th>Desciption</th>
+            <th>Quanlity/Update</th>
+            <th>Price</th>
+            <th>Discount</th>
+            <th>Tax</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+        <tfoot>
+          <tr>
+            <td colspan="6">Total Price:</td>
+            <td id="total-price">$0</td>
+          </tr>
+          <tr>
+            <td colspan="6">Total Discount:</td>
+            <td id="total-discount">$0</td>
+          </tr>
+          <tr>
+            <td colspan="6">Total Tax:</td>
+            <td id="total-tax">$0</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>
